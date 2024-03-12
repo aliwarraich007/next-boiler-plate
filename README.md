@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### NEXT.JS boiler plate ~ TS
 
-## Getting Started
+---
 
-First, run the development server:
+### Features
+
+✅ TypeScript <br />
+✅ Latest version of next and typescript <br />
+✅ Separations of concerns <br />
+✅ Code splitting oriented <br />
+
+### Note
+
+This boiler plate is not yet fully complete and there is no code in the files. However, you can adapt the folder structure. This boiler plate also may not be suitable for all type of projects. However it can be forked and modify according to your own style.
+
+- Boilerplate will be updated with code and all the necessary components to kickstart the your project at a very fast pace.
+- Libraries will be updated to the latest version regularly.
+
+### Current versions
+
+- Node `v18.17.0`
+- React `v18.2.0`
+- TS `v4.9.5`
+- Next `v14.1.3`
+
+---
+
+### Folder structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├─ @core/
+│  ├─ api/
+│  ├─ constants/
+│  ├─ interfaces/
+│  ├─ json/
+│  ├─ utils/
+├─ app/
+│  ├─ [page-dir]/
+│  │  ├─ sections/
+│  │  ├─ page.tsx
+│  ├─ layout.tsx
+│  ├─ page.tsx
+├─ shared/
+│  ├─ components/
+│  ├─ shared-pages/
+├─ styles/
+│  ├─ css/
+│  ├─ sass/
+│  │  ├─ components/
+│  │  ├─ pages/
+│  │  ├─ utils/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Folder structure outline
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `@core` folder contains all the logic that is not related to the UI of the app.
+- `app` folder contains all the logic that is related to the UI of the app. The `pages` folder contains the page name and then the splitted section content in the `sections` folder.
+- `shared` folder contains the components that are to be shared throughout the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Last updated
 
-## Learn More
+`12 March 24`
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Libraries installed
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- React
+- Sass
+- Next
+- React-Dom
+- TS
 
-## Deploy on Vercel
+### Versions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### `0.0.1`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Initial commit
+- updated folder structure
+- app not build able - files do not contain any code as of now.
+
+### Author
+
+[Muhammad A.](https://github.com/aliwarraich007 "Muhammad A.") | github
+
+### Contributions
+
+- Any contributions are welcomed.
